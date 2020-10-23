@@ -1,0 +1,154 @@
+body {
+   /* */
+   font-family: 'Helvetica';
+   text-align: center;
+   display: flex;
+   overflow-x: hidden;
+ }
+.name .nombre {
+    font-family: 'Ramaraja', serif;
+    font-size: 120px;
+    color: #236c29;
+    position:relative;
+    margin-top: 220px;
+}
+#left-element {
+    background-color: #236C29;
+    height: 100hv;
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    overflow-y: auto;
+}
+.center-image{
+    text-align: center;
+    position: relative; left: 4px;
+    margin: 10px;
+}
+.center-image img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; 
+    border-style: solid;
+    border-color: azure; 
+    border-width: 5px; 
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 0.8s;
+}
+@keyframes example{
+    0% {width: 100px; height: 100px;}
+    100% {width: 170px; height: 170px}
+}
+#right-container{
+    background-color: #D4F8CD; 
+    padding: 0;
+    position: relative; left: 375px;
+}
+.menu{
+    list-style: none;
+    position: relative; left: -15px;
+    text-align-last: center;
+    margin-top: 80px;
+    font-family: 'Ramaraja', serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.hover-light:hover{
+    color: black;
+}
+.hover-light{
+    color: lightgreen;
+    font-family: 'Helvetica';
+    font-size: 25px;
+}
+.name{
+    box-sizing: border-box;
+    height: 750px;
+    text-align: center;
+    background-image: url(../assets/pictures/acuaponico.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    padding-left: 0px;
+    opacity: 0.8
+}
+.fab{
+    font-size: 30px;
+}
+.hover-light2:hover{
+    color: grey;
+}
+.hover-light2{
+    color: black;
+}
+.date {
+    font-size: 12px;
+}
+.fas{
+    font-size: 30px;
+}
+h3{
+    color: black;
+}
+#about-me, #experience, #services, #contact, #education {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.ds {
+    font-size: 40px;
+    font-family: 'Ramaraja', serif;
+    color:  #1C3617;
+    font-weight: bold;
+    animation-name: example1;
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+@keyframes example1{
+    0% {color:   #1C3617;}
+    33%{color: lightgrey;}
+    66%{color: lightgray;}
+    100%{color:   #1C3617;}
+}    
+.entr {
+    font-size: 40px;
+    font-family: 'Ramaraja', serif;
+    color:   #1C3617;
+    font-weight: bold;
+    animation-name: example2;
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+@keyframes example2{
+    0% {color: lightgray;}
+    33%{color: #1C3617;}
+    66%{color: lightgray;}
+    100%{color:   #1C3617;}
+} 
+.pm {
+    font-size: 40px;
+    font-family: 'Ramaraja', serif;
+    color:   #1C3617;
+    font-weight: bold;
+    animation-name: example3;
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+@keyframes example3{
+    0% {color: lightgray;}
+    33%{color: lightgray;}
+    66%{color:   #1C3617;}
+    100%{color: d  #1C3617;}   
+}
+.division {
+    border-color: #1C3617;
+    border-width: 5px;
+    width: 80%;
+    text-align: center;
+}
