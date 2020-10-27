@@ -10,7 +10,7 @@ body {
     font-size: 120px;
     color: #236c29;
     position:relative;
-    margin-top: 220px;
+    margin-top: 185px;
 }
 #left-element {
     background-color: #236C29;
@@ -55,6 +55,7 @@ body {
     text-align-last: center;
     margin-top: 80px;
     font-family: 'Ramaraja', serif;
+    font-size: 15px;
 }
 *, ::after, ::before {
     box-sizing: border-box;
